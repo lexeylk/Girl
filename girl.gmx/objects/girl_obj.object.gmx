@@ -148,7 +148,7 @@ can_go_down = false;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="block_obj">
+    <event eventtype="4" ename="wall_obj">
       <action>
         <libid>1</libid>
         <id>603</id>

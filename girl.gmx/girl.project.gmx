@@ -3,13 +3,32 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
+  <datafiles number="2" name="datafiles">
+    <datafile>
+      <name>first_room.txt</name>
+      <exists>-1</exists>
+      <size>14</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>first_room.txt</filename>
+    </datafile>
+  </datafiles>
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\girl_spt</sprite>
     <sprite>sprites\h_spr</sprite>
     <sprite>sprites\l_spr</sprite>
-    <sprite>sprites\block_spr</sprite>
+    <sprite>sprites\wall_spr</sprite>
     <sprite>sprites\road_spr</sprite>
     <sprite>sprites\arrow_up_spr</sprite>
     <sprite>sprites\arrow_down_spr</sprite>
@@ -23,7 +42,7 @@
     <object>objects\girl_obj</object>
     <object>objects\house_obj</object>
     <object>objects\l_obj</object>
-    <object>objects\block_obj</object>
+    <object>objects\wall_obj</object>
     <object>objects\road_obj</object>
     <object>objects\arrow_up_obj</object>
     <object>objects\arrow_down_obj</object>
